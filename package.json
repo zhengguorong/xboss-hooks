@@ -10,7 +10,8 @@
     "build": "jest && rollup -c rollup.config.js",
     "prepare": "husky install",
     "release": "release-it",
-    "test": "jest"
+    "test": "jest",
+    "report": "jest --collect-coverage"
   },
   "lint-staged": {
     "*.{ts,tsx,js,vue,less}": "prettier --write",
