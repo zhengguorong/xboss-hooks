@@ -1,5 +1,2 @@
-export const getUser = (name: string) => name;
-
-const name = 'test';
-
-console.log(name);
+export * from './useToggle';
+console.log('test');
