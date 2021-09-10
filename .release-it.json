@@ -5,5 +5,5 @@
   "github": {
     "release": true
   },
-  "after:bump": "npm run build"
+  "before:init": ["npm run build"]
 }
