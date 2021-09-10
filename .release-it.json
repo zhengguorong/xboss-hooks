@@ -4,5 +4,6 @@
   },
   "github": {
     "release": true
-  }
+  },
+  "after:bump": "npm run build"
 }
