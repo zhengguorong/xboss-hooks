@@ -5,5 +5,7 @@
   "github": {
     "release": true
   },
-  "before:init": ["npm run build"]
+  "hooks": {
+    "before:init": ["npm run build"]
+  }
 }
